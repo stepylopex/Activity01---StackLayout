@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity01" Title="StackLayout " >
+    <ContentPage.Content>
+        <StackLayout>
+          
+            <Label Text="The is an Example of Stack Layout" Margin="100,10,0,0" />
+    
+            <Label Text="Start"
+                   HorizontalOptions="Start"
+                   BackgroundColor="Yellow" />
+            <Label Text="Center"
+                   HorizontalOptions="Center"
+                   BackgroundColor="Green" />
+            <Label Text="End"
+                   HorizontalOptions="End"
+                   BackgroundColor="Blue" />
+            <Label Text="Fill"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="Red" />
+
+
+          
+            <Label Text="StartAndExpand"
+                   VerticalOptions="StartAndExpand"
+                   BackgroundColor="LightCoral" />
+
+            <StackLayout Margin="30,35,20,25">
+                <Label Text="Start"
+                   HorizontalOptions="Start"
+                   BackgroundColor="Yellow" />
+                <Label Text="Center"
+                   HorizontalOptions="Center"
+                   BackgroundColor="Green" />
+                <Label Text="End"
+                   HorizontalOptions="End"
+                   BackgroundColor="Blue" />
+                <Label Text="Fill"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="Red" />
+
+            </StackLayout>
+            <Label Text="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                      BackgroundColor="LightCoral" />
+            <Label Text="EndAndExpand"
+                   VerticalOptions="EndAndExpand"
+                BackgroundColor="LightCoral" />
+            <Label Text="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                    BackgroundColor="LightCoral" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
